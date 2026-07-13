@@ -9,7 +9,7 @@
   gtag('js', new Date());
   gtag('config', 'G-XXXXXXXXXX');
 </script>
-<link rel="icon" type="image/png" sizes="32x32" href="https://health1hospital.com/wp-content/uploads/2025/12/cropped-faviicon-32x32.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/cropped-faviicon-32x32.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Stroke Warning Signs: The FAST Test and Why Minutes Matter | Health1</title>
 <meta name="description" content="Learn the FAST test for recognizing stroke symptoms early — face drooping, arm weakness, speech difficulty, time to call emergency. Every minute counts.">
@@ -75,7 +75,7 @@
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
 <header class="site-header"><div class="site-header-inner">
-  <a href="/" class="logo"><img src="https://health1hospital.com/wp-content/uploads/2025/08/Health1logo.webp" alt="Health1 Super Speciality Hospitals"></a>
+  <a href="/" class="logo"><img src="/assets/img/Health1logo.webp" alt="Health1 Super Speciality Hospitals"></a>
   <div style="display:flex; gap:8px;">
     <a href="tel:+917969996999" class="btn" style="background:var(--red);">📞 Emergency</a>
     <a href="/#find-doctor" class="btn" style="background:var(--amber);">Book Appointment</a>
@@ -132,5 +132,47 @@
     <a href="/privacy-policy/">Privacy Policy</a>
   </div>
 </div></footer>
+
+<style id="h1-action-layer-css">
+.h1fab-stack{position:fixed;right:18px;bottom:22px;z-index:250;display:flex;flex-direction:column;gap:12px;align-items:flex-end;}
+.h1fab-stack.h1-home{bottom:90px;}
+.h1fab{display:flex;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;box-shadow:0 8px 24px rgba(0,0,0,0.25);text-decoration:none;font-size:24px;transition:transform .2s ease;}
+.h1fab:hover{transform:scale(1.08);}
+.h1fab-em{background:#DF2516;color:#fff;animation:h1pulse 2s infinite;}
+.h1fab-wa{background:#25D366;color:#fff;}
+.h1fab svg{width:28px;height:28px;fill:#fff;}
+@keyframes h1pulse{0%{box-shadow:0 0 0 0 rgba(223,37,22,.55);}70%{box-shadow:0 0 0 16px rgba(223,37,22,0);}100%{box-shadow:0 0 0 0 rgba(223,37,22,0);}}
+.h1fab-label{position:absolute;right:64px;background:#2B2B2E;color:#fff;font:600 12px 'IBM Plex Sans',sans-serif;padding:5px 10px;border-radius:8px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s;}
+.h1fab:hover .h1fab-label{opacity:1;}
+.h1bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:240;background:#fff;border-top:1px solid #E7E3DA;box-shadow:0 -6px 20px rgba(0,0,0,.08);padding:8px 10px calc(8px + env(safe-area-inset-bottom));}
+.h1bar-inner{display:grid;grid-template-columns:1fr 1fr 1fr 1.2fr;gap:8px;max-width:520px;margin:0 auto;}
+.h1bar a{display:flex;flex-direction:column;align-items:center;gap:2px;text-decoration:none;font:600 11px 'IBM Plex Sans',sans-serif;color:#2B2B2E;padding:6px 4px;border-radius:10px;}
+.h1bar a span.h1ic{font-size:18px;line-height:1;}
+.h1bar a.h1b-em{background:#DF2516;color:#fff;}
+.h1bar a.h1b-book{background:#005AAB;color:#fff;}
+@media(max-width:768px){
+  .h1bar{display:block;}
+  .h1fab-stack{bottom:84px;right:14px;}
+  .h1fab-stack.h1-home{bottom:150px;}
+  .h1fab{width:48px;height:48px;}
+  .h1fab svg{width:24px;height:24px;}
+  body{padding-bottom:76px;}
+}
+</style>
+
+<div class="h1fab-stack" id="h1FabStack">
+  <a class="h1fab h1fab-em" href="tel:+919033114444" aria-label="Call 24x7 Emergency: 90331 14444"><span class="h1fab-label">24×7 Emergency — 90331 14444</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg></a>
+  <a class="h1fab h1fab-wa" href="https://wa.me/917969996999?text=Hello%20Health1%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><span class="h1fab-label">Chat on WhatsApp</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9.4 3 4 8.3 4 14.9c0 2.6.8 5 2.3 7L4.6 27l5.3-1.7c1.9 1 4 1.6 6.1 1.6 6.6 0 12-5.3 12-11.9S22.6 3 16 3zm6.1 16.1c-.3.7-1.5 1.4-2.1 1.5-.6.1-1.2.2-3.5-.7-3-1.2-4.9-4.2-5-4.4-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .5-.1.7.5l1 2.4c.1.2.1.4 0 .6l-.4.7-.6.6c-.2.2-.4.4-.2.7.2.4 1 1.6 2.1 2.6 1.4 1.3 2.6 1.7 3 1.8.4.2.6.1.8-.1l1-1.2c.2-.3.5-.2.8-.1l2.3 1.1c.3.2.6.3.6.4.1.2.1.7-.2 1.4z"/></svg></a>
+</div>
+
+<nav class="h1bar" aria-label="Quick actions">
+  <div class="h1bar-inner">
+    <a href="tel:+917969996999" aria-label="Call for appointment"><span class="h1ic">📞</span>Call</a>
+    <a href="https://wa.me/917969996999?text=Hello%20Health1%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" aria-label="WhatsApp"><span class="h1ic">💬</span>WhatsApp</a>
+    <a class="h1b-book" href="/#booking-form"><span class="h1ic">📅</span>Book</a>
+    <a class="h1b-em" href="tel:+919033114444"><span class="h1ic">🚨</span>Emergency</a>
+  </div>
+</nav>
+
 </body>
 </html>
