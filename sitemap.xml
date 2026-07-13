@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://health1hospital.com/</loc><lastmod>2026-07-07</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://health1hospital.com/insurance-pmjay/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://health1hospital.com/health-packages/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Specialty pages -->
+  <url><loc>https://health1hospital.com/service/robotic-joint-replacement/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://health1hospital.com/service/kidney-liver-transplant/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://health1hospital.com/service/neurosurgery/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://health1hospital.com/service/neurology-stroke-care/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://health1hospital.com/service/spine-surgery/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://health1hospital.com/service/arthroscopy-sports-medicine/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/service/gastroenterology/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/service/pulmonology/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/service/ent/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://health1hospital.com/service/interventional-pain-management/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Branch pages (local SEO — high value, were entirely missing before) -->
+  <url><loc>https://health1hospital.com/our-hospitals/shilaj/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://health1hospital.com/our-hospitals/vastral/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/our-hospitals/gandhinagar/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/our-hospitals/himmatnagar/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/our-hospitals/modasa/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/our-hospitals/udaipur/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Doctor profiles -->
+  <url><loc>https://health1hospital.com/doctors/keyur-patel/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Trust / content pages -->
+  <url><loc>https://health1hospital.com/second-opinion/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://health1hospital.com/gallery/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://health1hospital.com/patient-stories/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/about/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://health1hospital.com/health-blog/</loc><lastmod>2026-07-07</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/health-tools/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://health1hospital.com/career/</loc><lastmod>2026-07-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://health1hospital.com/contact/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/opd-ipd/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Legal -->
+  <url><loc>https://health1hospital.com/privacy-policy/</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://health1hospital.com/terms-of-service/</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+  <!-- Blog articles -->
+  <url><loc>https://health1hospital.com/blog/stroke-warning-signs-fast-test/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/blog/robotic-vs-conventional-knee-replacement-recovery/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/blog/acl-tear-symptoms-surgery-recovery/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/blog/chronic-back-pain-red-flags-spine-specialist/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/blog/living-donor-kidney-transplant-process-explained/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/blog/gerd-vs-stomach-ulcer-how-to-tell-apart/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/blog/copd-vs-asthma-understanding-the-difference/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://health1hospital.com/blog/chronic-sinusitis-home-remedies-vs-surgery/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Doctor profiles -->
+  <url><loc>https://health1hospital.com/doctors/akshay-patel/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/milind-akhani/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/vivek-kothari/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/krunal-patel/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/sunil-gurmukhani/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/kiran-prajapati/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/subhash-chaudhary/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/ravi-prajapati/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/kalpesh-c-patel/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/nevil-gajera/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/sanjay-rajput/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/nirav-patel/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/ritesh-patel/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/renuka-vasava/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/ravi-khetan/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/nilay-adhvaryu/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/sandip-patel/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/bhavin-patel/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/pradip-solanki/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/munjal-shah/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/satish-kriplani/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/harsh-raval/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/rohan-vakta/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/shweta-singh/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/dipen-thakkar/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/jeet-amin/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/abhilash-surela/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/dhruv-shah/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/dhaval-darji/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/harshil-pandya/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/jaimin-patel/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+
+  <url><loc>https://health1hospital.com/doctors/bharti-jalandhara/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/himal-shah/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/jigar-anandjiwala/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/jignesh-patel/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/kaushal-patel/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/lakshank-mehta/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/mitesh-suthar/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/rajdeep-gupta/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/rajdeep-kubavat/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/rasik-patel/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/rishiraj-yadav/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/siddharth-joshi/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/suril-vithlani/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/uday-patel/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://health1hospital.com/doctors/yatrik-ganatra/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+
+  <url><loc>https://health1hospital.com/service/medical-oncology/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://health1hospital.com/service/plastic-reconstructive-surgery/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://health1hospital.com/service/interventional-radiology/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://health1hospital.com/service/pediatrics-child-health/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://health1hospital.com/service/infectious-diseases/</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+</urlset>
