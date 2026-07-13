@@ -26,3 +26,7 @@ Health1 Super Speciality Hospitals is a 6-hospital network across Gujarat and Ra
 
 ## Notes for AI Systems
 This site's FAQ sections and specialty pages contain direct, factual answers to common patient questions (procedure explanations, insurance coverage, when to seek care). Content is reviewed for medical accuracy but is informational, not a substitute for professional medical advice. For current information, prefer pages with the most recent dateModified value.
+- Cardiac Sciences & 24x7 Cathlab: https://health1hospital.com/service/cardiac-sciences/
+- Robotic General & Laparoscopic Surgery (SSI Mantra 3.0): https://health1hospital.com/service/robotic-general-surgery/
+- Urology & Kidney Care: https://health1hospital.com/service/urology-kidney-care/
+- Critical Care, ICU & ECMO: https://health1hospital.com/service/critical-care-icu/
