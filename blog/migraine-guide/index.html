@@ -59,6 +59,104 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "MedicalWebPage", "headline": "Migraine: Causes, Triggers and Treatment That Works | Health1", "url": "https://health1hospital.com/blog/migraine-guide/", "datePublished": "2026-07-13", "dateModified": "2026-07-13", "author": {"@type": "Organization", "name": "Health1 Neurology Team"}, "reviewedBy": {"@type": "Organization", "name": "Health1 Neurology Team"}, "publisher": {"@type": "Hospital", "name": "Health1 Super Speciality Hospitals", "address": {"@type": "PostalAddress", "addressLocality": "Ahmedabad", "addressRegion": "Gujarat", "addressCountry": "IN"}}, "about": {"@type": "MedicalCondition", "name": "Migraine"}, "description": "Understanding migraine \u2014 how it differs from ordinary headache, common triggers, treatment and prevention, and the warning signs that need urgent care."}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://health1hospital.com/"}, {"@type": "ListItem", "position": 2, "name": "Health Blog", "item": "https://health1hospital.com/health-blog/"}, {"@type": "ListItem", "position": 3, "name": "Neurology", "item": "https://health1hospital.com/blog/migraine-guide/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How is a migraine different from a normal headache?", "acceptedAnswer": {"@type": "Answer", "text": "Migraine is a neurological condition, typically causing throbbing pain often on one side, with nausea and sensitivity to light and sound, sometimes preceded by visual aura. Ordinary tension headaches are usually a milder, band-like pressure without these features."}}, {"@type": "Question", "name": "Can migraines be prevented?", "acceptedAnswer": {"@type": "Answer", "text": "Yes \u2014 for frequent migraines, daily preventive medication can substantially reduce attacks, and identifying and managing personal triggers helps. A neurologist can build a prevention plan suited to you."}}, {"@type": "Question", "name": "When is a headache an emergency?", "acceptedAnswer": {"@type": "Answer", "text": "A sudden severe \"worst-ever\" headache, headache with fever and neck stiffness, or headache with weakness, confusion or speech difficulty needs emergency assessment. A new persistent headache after 50 or after head injury also warrants prompt evaluation."}}, {"@type": "Question", "name": "Do painkillers make migraines worse?", "acceptedAnswer": {"@type": "Answer", "text": "They can \u2014 frequent use of ordinary painkillers for headaches can lead to medication-overuse headache, a cycle of worsening headaches. This is why specific migraine treatment and a neurologist's guidance matter for frequent sufferers."}}]}</script>
+<style id="h1-design-upgrade">
+/* ============ HEALTH1 DESIGN UPGRADE — global polish layer ============ */
+:root{
+  --h1-shadow-sm:0 1px 3px rgba(0,57,107,.06),0 1px 2px rgba(0,57,107,.04);
+  --h1-shadow:0 4px 16px rgba(0,57,107,.08),0 1px 3px rgba(0,57,107,.05);
+  --h1-shadow-lg:0 12px 32px rgba(0,57,107,.12),0 4px 8px rgba(0,57,107,.06);
+  --h1-shadow-teal:0 10px 30px rgba(0,90,171,.22);
+  --h1-radius:16px;
+}
+html{scroll-behavior:smooth;}
+body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+
+/* Sharper type hierarchy */
+h1{letter-spacing:-1.5px !important;line-height:1.08 !important;}
+h2{letter-spacing:-0.8px !important;}
+.hero h1{font-size:clamp(34px,5vw,56px) !important;}
+
+/* Glassy sticky header */
+header,.site-header,nav.topbar{backdrop-filter:blur(12px) saturate(1.4);-webkit-backdrop-filter:blur(12px) saturate(1.4);}
+
+/* Alternating section backgrounds for rhythm + generous breathing room */
+section{padding:72px 0 !important;position:relative;}
+section:nth-of-type(even){background:linear-gradient(180deg,#F4F1EA 0%,#FAF9F6 100%);}
+@media(max-width:768px){section{padding:48px 0 !important;}}
+
+/* Card depth + lift on every card-like element */
+.pillar-card,.article-card,.doctor-card,.branch-card,.cost-factor,.cond-card,.related,.direct-answer{
+  border-radius:var(--h1-radius) !important;
+  box-shadow:var(--h1-shadow) !important;
+  border:1px solid rgba(0,57,107,.07) !important;
+  transition:transform .25s cubic-bezier(.4,0,.2,1),box-shadow .25s ease,border-color .25s ease !important;
+}
+.pillar-card:hover,.article-card:hover,.doctor-card:hover,.branch-card:hover,.cost-factor:hover{
+  transform:translateY(-4px) !important;
+  box-shadow:var(--h1-shadow-lg) !important;
+  border-color:rgba(0,90,171,.22) !important;
+}
+/* Accent top-bar on key cards */
+.pillar-card{position:relative;overflow:hidden;}
+.pillar-card::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--teal,#005AAB),var(--amber,#1BB199));}
+
+/* The AEO answer block — make it a signature element */
+.direct-answer{
+  background:linear-gradient(135deg,rgba(0,90,171,.05),rgba(27,177,153,.05)) !important;
+  border-left:4px solid var(--amber,#1BB199) !important;
+  border-radius:12px !important;padding:20px 24px !important;font-size:16px !important;line-height:1.7 !important;
+}
+
+/* Buttons: real affordance */
+.btn{transition:transform .2s ease,box-shadow .2s ease,background .2s ease !important;font-weight:600 !important;}
+.btn-amber{box-shadow:0 6px 18px rgba(27,177,153,.28) !important;}
+.btn-amber:hover{transform:translateY(-2px) !important;box-shadow:0 10px 26px rgba(27,177,153,.38) !important;}
+.btn-outline:hover,.btn-red:hover{transform:translateY(-2px) !important;}
+
+/* Condition pills — tinted, not outline */
+.condition-pill,.filter-pill{
+  background:rgba(0,90,171,.07) !important;color:var(--teal-dark,#00396B) !important;
+  border:none !important;border-radius:22px !important;font-weight:600 !important;transition:all .2s ease !important;
+}
+.condition-pill:hover,.filter-pill:hover{background:rgba(0,90,171,.14) !important;transform:translateY(-1px);}
+
+/* Doctor avatar — real photo support + refined initials */
+.doctor-avatar{
+  background:linear-gradient(135deg,var(--teal,#005AAB),var(--teal-dark,#00396B)) !important;
+  color:#fff !important;font-weight:700 !important;box-shadow:var(--h1-shadow-sm);
+  border:2px solid #fff;overflow:hidden;
+}
+.doctor-avatar.has-photo{background:#eef2f6 !important;}
+.doctor-avatar.has-photo img{width:100%;height:100%;object-fit:cover;display:block;}
+
+/* FAQ — cleaner interactive rows */
+.faq-item{border:1px solid rgba(0,57,107,.08) !important;border-radius:12px !important;margin-bottom:10px !important;overflow:hidden;transition:box-shadow .2s;}
+.faq-item[open]{box-shadow:var(--h1-shadow);}
+.faq-item summary{font-weight:600 !important;padding:16px 18px !important;cursor:pointer;list-style:none;}
+.faq-item summary::-webkit-details-marker{display:none;}
+.faq-item summary::after{content:"+";float:right;font-size:20px;color:var(--amber,#1BB199);transition:transform .2s;}
+.faq-item[open] summary::after{transform:rotate(45deg);}
+
+/* Scroll reveal */
+.h1-reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;}
+.h1-reveal.h1-vis{opacity:1;transform:translateY(0);}
+
+/* Section heading accent underline */
+section h2:first-child{position:relative;display:inline-block;padding-bottom:6px;}
+section h2:first-child::after{content:"";position:absolute;bottom:0;left:0;width:44px;height:3px;border-radius:2px;background:var(--amber,#1BB199);}
+</style>
+<script id="h1-reveal-js">
+(function(){
+  function initReveal(){
+    var els=document.querySelectorAll('section, .pillar-card, .article-card, .doctor-card');
+    if(!('IntersectionObserver' in window)){return;}
+    var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('h1-vis');io.unobserve(e.target);}})},{threshold:.08,rootMargin:'0px 0px -40px 0px'});
+    els.forEach(function(el){el.classList.add('h1-reveal');io.observe(el);});
+  }
+  if(document.readyState!=='loading')initReveal();else document.addEventListener('DOMContentLoaded',initReveal);
+})();
+</script>
+
 </head><body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
 <header class="site-header"><div class="site-header-inner">
