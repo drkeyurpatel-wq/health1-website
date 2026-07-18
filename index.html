@@ -585,6 +585,36 @@
     transition:background var(--dur-fast) var(--ease);
   }
   .chip:hover{background:rgba(0,90,171,0.08);}
+
+/* --- Homepage first-impression polish --- */
+.hero{padding:80px 0 64px;position:relative;overflow:hidden;}
+.hero-inner{align-items:center;}
+.hero h1{font-size:clamp(32px,4.6vw,52px);line-height:1.08;letter-spacing:-0.02em;font-weight:700;max-width:none;margin-bottom:18px;}
+.hero .sub{font-size:17px;line-height:1.6;color:var(--muted);max-width:520px;margin-bottom:24px;}
+.eyebrow-dot{width:7px;height:7px;border-radius:50%;background:var(--amber);display:inline-block;}
+.symptom-search{box-shadow:0 4px 20px rgba(0,57,107,0.06);transition:border-color .25s,box-shadow .25s;}
+.symptom-search:focus-within{border-color:var(--teal);box-shadow:0 4px 24px rgba(0,90,171,0.14);}
+.ss-icon{display:flex;align-items:center;color:var(--muted);}
+.hero-visual{position:relative;}
+.hero-visual img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:18px;box-shadow:0 24px 60px rgba(0,57,107,0.18);}
+.hero-visual .badge{position:absolute;bottom:-18px;left:-18px;background:#fff;border-radius:14px;padding:14px 18px;box-shadow:0 12px 34px rgba(0,0,0,0.14);display:flex;align-items:center;gap:12px;}
+.hero-visual .badge .stars{color:var(--gold);font-size:15px;letter-spacing:1px;}
+.hero-visual .badge .num{font:700 22px 'Fraunces',serif;color:var(--teal-dark);line-height:1;}
+.hero-visual .badge-sub{font-size:11px;color:var(--muted);margin-top:2px;}
+.trust-strip{display:flex;flex-wrap:wrap;gap:16px;margin-top:22px;font-size:13px;color:var(--muted);font-weight:500;}
+.trust-strip .dot{width:5px;height:5px;border-radius:50%;background:var(--amber);display:inline-block;margin-right:7px;vertical-align:middle;}
+/* Scroll reveal */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s var(--ease-out),transform .7s var(--ease-out);}
+.reveal.visible{opacity:1;transform:translateY(0);}
+/* Card hover polish */
+.pillar-card{transition:transform .25s var(--ease),box-shadow .25s var(--ease),border-color .25s var(--ease);}
+.pillar-card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(0,57,107,0.12);border-color:transparent;}
+@media(max-width:900px){
+  .hero-inner{grid-template-columns:1fr;gap:36px;}
+  .hero-visual{order:-1;}
+  .hero-visual .badge{left:auto;right:16px;bottom:-14px;}
+}
+
 </style>
 </head>
 <body>
@@ -630,34 +660,33 @@
 
 <section class="hero" id="main-content">
   <div class="container hero-inner">
-    <div>
-      <div class="eyebrow" data-i18n="hero-eyebrow">Health1 Super Speciality Hospitals</div>
-      <h1 data-i18n="hero-h1">Ahmedabad's Robotic Surgery Network, with Kidney &amp; Liver Transplant Care — 5 Hospitals, One Standard of Care.</h1>
-      <p class="sub" data-i18n="hero-sub">NABH-accredited since 2017. 950+ beds. Cashless and PMJAY accepted.</p>
+    <div class="hero-copy reveal">
+      <div class="eyebrow" data-i18n="hero-eyebrow"><span class="eyebrow-dot"></span>Health1 Super Speciality Hospitals</div>
+      <h1 data-i18n="hero-h1">Advanced surgical care, close to home.</h1>
+      <p class="sub" data-i18n="hero-sub">Robotic surgery, kidney &amp; liver transplant, and 24×7 emergency care across 5 NABH-accredited hospitals in Gujarat &amp; Rajasthan — since 2017.</p>
 
       <div class="symptom-search">
-        <span class="ss-icon">🔍</span>
+        <span class="ss-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg></span>
         <input type="text" id="symptomInput" data-i18n-placeholder="hero-placeholder" placeholder="What's bothering you? e.g. knee pain, chest pain, kidney..." onkeydown="if(event.key==='Enter')matchSymptom()">
         <button class="btn btn-amber" onclick="matchSymptom()" data-i18n="hero-findcare">Find Care</button>
       </div>
       <div id="symptomResult"></div>
 
       <div class="hero-ctas">
-        <a href="#booking-form" class="btn btn-amber" style="padding:14px 24px; font-size:15px;" data-i18n="btn-book">Book Appointment</a>
-        <a href="tel:+919033114444" class="btn btn-red pulse" style="padding:14px 24px; font-size:15px;" data-i18n="hero-emergency247">24×7 Emergency</a>
+        <a href="#booking-form" class="btn btn-amber" style="padding:14px 26px; font-size:15px;" data-i18n="btn-book">Book Appointment</a>
+        <a href="tel:+919033114444" class="btn btn-red pulse" style="padding:14px 26px; font-size:15px;" data-i18n="hero-emergency247">24×7 Emergency</a>
       </div>
       <div class="trust-strip">
-        <span><span class="dot"></span><span data-i18n="trust-1">★ 5.0 (3,949 Google reviews)</span></span>
+        <span><span class="dot"></span><span data-i18n="trust-1">★ 5.0 · 3,949 Google reviews</span></span>
         <span><span class="dot"></span><span data-i18n="trust-2">NABH Accredited</span></span>
-        <span><span class="dot"></span><span data-i18n="trust-3">Since 2017</span></span>
         <span><span class="dot"></span><span data-i18n="trust-4">950+ Beds</span></span>
       </div>
     </div>
-    <div class="hero-visual">
-      <img src="/assets/img/gallery_img_1.jpg" alt="Health1 Shilaj hospital" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-visual reveal">
+      <img src="/assets/img/AVISHKAR-HEALTH1-HOSPITAL-9.jpg" alt="Health1 Super Speciality Hospital, Shilaj — flagship facility at dusk" loading="eager" fetchpriority="high" decoding="async" width="1600" height="1200">
       <div class="badge">
         <div class="stars">★★★★★</div>
-        <div><div class="num">5.0</div></div>
+        <div><div class="num">5.0</div><div class="badge-sub">3,949 reviews</div></div>
       </div>
     </div>
   </div>
@@ -1213,7 +1242,7 @@
     'btn-emergency':'📞 ઈમરજન્સી', 'btn-book':'એપોઈન્ટમેન્ટ બુક કરો',
 
     'hero-eyebrow':'હેલ્થ1 સુપર સ્પેશિયાલિટી હોસ્પિટલ્સ',
-    'hero-h1':'અમદાવાદનું રોબોટિક સર્જરી નેટવર્ક, કિડની અને લિવર ટ્રાન્સપ્લાન્ટ કેર સાથે — 6 હોસ્પિટલ, એક જ ધોરણની સંભાળ.',
+    'hero-h1':'Advanced surgical care, close to home.',
     'hero-sub':'2017થી NABH માન્યતા પ્રાપ્ત. 950+ બેડ. કેશલેસ અને PMJAY સ્વીકાર્ય.',
     'hero-placeholder':'તમને શું તકલીફ છે? દા.ત. ઘૂંટણનો દુખાવો, છાતીમાં દુખાવો, કિડની...',
     'hero-findcare':'સંભાળ શોધો',
@@ -1647,7 +1676,7 @@
 .h1bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:240;background:#fff;border-top:1px solid #E7E3DA;box-shadow:0 -6px 20px rgba(0,0,0,.08);padding:8px 10px calc(8px + env(safe-area-inset-bottom));}
 .h1bar-inner{display:grid;grid-template-columns:1fr 1fr 1fr 1.2fr;gap:8px;max-width:520px;margin:0 auto;}
 .h1bar a{display:flex;flex-direction:column;align-items:center;gap:2px;text-decoration:none;font:600 11px 'IBM Plex Sans',sans-serif;color:#2B2B2E;padding:6px 4px;border-radius:10px;}
-.h1bar a span.h1ic{font-size:18px;line-height:1;}
+.h1bar a span.h1ic{font-size:18px;line-height:1;display:flex;align-items:center;justify-content:center;}.h1bar a span.h1ic svg{width:18px;height:18px;}
 .h1bar a.h1b-em{background:#DF2516;color:#fff;}
 .h1bar a.h1b-book{background:#005AAB;color:#fff;}
 @media(max-width:768px){
@@ -1740,6 +1769,20 @@
     send.addEventListener('click',go);
     inp.addEventListener('keydown',function(e){if(e.key==='Enter')go();});
   }
+})();
+</script>
+
+
+<script>
+(function(){
+  // auto-add reveal to major sections that don't have it
+  document.querySelectorAll('section .container > h2, .pillar-card, .article-card').forEach(function(el){
+    if(!el.closest('.reveal')) el.classList.add('reveal');
+  });
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); }});
+  },{threshold:0.12,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
 })();
 </script>
 
